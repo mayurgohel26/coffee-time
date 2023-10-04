@@ -1,0 +1,297 @@
+@media (max-width:500px) {
+
+    ul {
+        display: none;
+    }
+
+    .click {
+        display: block;
+    }
+
+    section .hero-section {
+
+        flex-direction: column;
+
+    }
+
+    .hero-section .main-left {
+        width: 100%;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .hero-section .main-left h1 {
+        font-size: 100px;
+        padding-bottom: 15px;
+    }
+
+    .hero-section .main-left h5 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .hero-section .main-left p {
+        font-size: 12px;
+        padding: 15px 0px;
+    }
+
+    .main-right {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .section-one {
+        flex-direction: column;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left .left-text h2 {
+        font-size: 100px;
+        padding-bottom: 25px;
+    }
+
+
+    .right {
+        width: 100%;
+    }
+
+    .section-one .right p {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .icon-one {
+        display: none;
+    }
+
+    .left .left-text {
+        padding-left: 0px;
+
+    }
+
+    .section-two {
+        grid-template-columns: 1fr;
+        padding-top: 70px;
+    }
+
+    .section-two .left p {
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .right .right-text {
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .right .right-text h2 {
+        font-size: 55px;
+        padding: 0px;
+    }
+
+    .right .right-text button {
+        background: #29a19c;
+        margin-left: 0px;
+    }
+
+    .icon-two {
+        display: none;
+    }
+
+    .icon-three {
+        display: none;
+    }
+
+    .sub-footer-list li {
+        border: 1px solid #000;
+        padding: 1px;
+    }
+
+    .sub-footer-list li a {
+        border: 1px solid #000;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px) {
+
+    .main-left {
+        width: 100%;
+    }
+
+    .main-right {
+        width: 100%;
+    }
+
+    .btm-img {
+        display: none;
+    }
+
+    .customers {
+        flex-direction: column;
+    }
+
+    .icon-ft-top {
+        top: -5%;
+    }
+
+    .footer-one {
+        align-items: center;
+        border: 1px solid #000;
+    }
+
+
+    .footer-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-list-info,
+    .footer-list-contact {
+        padding: 25px 0;
+    }
+
+}
+
+@media (max-width:768px) {
+    ul {
+        display: none;
+    }
+
+    .click {
+        display: block;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    .customers {
+        flex-direction: column;
+    }
+
+    .footer-one {
+        padding: 35px;
+        flex-direction: column;
+    }
+
+    .footer-one .logo {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .sub-footer {
+        flex-direction: column;
+    }
+
+    .sub-footer-list li {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    header ul li {
+        padding: 20px 10px;
+    }
+
+    .hero-section .main-left h1 {
+        font-size: 140px;
+        line-height: 140px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .icon-one {
+        left: 5%;
+        display: none;
+    }
+
+    .icon-two {
+        display: none;
+    }
+
+    .icon-three {
+        top: 0%;
+        left: -20%;
+        display: none;
+
+    }
+
+    .icon-four {
+        left: -30%;
+        display: none;
+
+    }
+
+    .icon-five {
+        left: -35%;
+        display: none;
+
+    }
+
+    .cust-one p {
+        padding: 5px 50px;
+    }
+
+    .cust-two p {
+        padding: 5px 50px;
+    }
+
+    .icon-six {
+        display: none;
+        left: -105%;
+    }
+}
+
+@media (max-width:1200px) {
+    .btm-img {
+        top: 87%;
+    }
+
+    .icon-one {
+        left: 0%;
+    }
+
+    .icon-three {
+        top: 0%;
+        left: -30%;
+    }
+
+    .icon-four {
+        left: -5%;
+    }
+
+    .icon-five {
+        left: -10%;
+    }
+
+    .cust-one p {
+        padding: 5px 50px;
+    }
+
+    .cust-two p {
+        padding: 5px 50px;
+    }
+
+    .icon-six {
+        left: 0%;
+    }
+}

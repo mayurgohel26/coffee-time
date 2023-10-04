@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Grand Hotel', cursive;
+}
+
+header {
+    background: #222831;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.click {
+    display: none;
+    color: #ffffff;
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+
+header ul li {
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+ul li a {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header .logo {
+    padding: 10px 25px;
+}
+
+#hero_section {
+    position: relative;
+}
+
+section .hero-section {
+
+    background: #222831;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-section .main-left {
+    padding: 45px 25px;
+    position: relative;
+    width: 50%;
+}
+
+.icon {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    z-index: 11;
+}
+
+.hero-section .main-left h1 {
+    font-size: 153px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.hero-section .main-left h5 {
+    text-transform: uppercase;
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-bottom: 15px;
+}
+
+.hero-section .main-left p {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 5px 50px 20px 0;
+}
+
+.main-left button {
+    font-size: 22px;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    background: #29a19c;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-right {
+    padding-top: 60px;
+    width: 50%;
+}
+
+.btm-img {
+    position: absolute;
+    top: 87%;
+    left: 0;
+}
+
+.section-one {
+    background: #29a19c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left .left-text {
+    padding-left: 115px;
+
+}
+
+.left .left-text h2 {
+    font-size: 125px;
+    width: 350px;
+    line-height: 113px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 75px;
+    font-family: "Grand Hotel";
+}
+
+.left .left-text button {
+    font-size: 22px;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    background: #222831;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.section-one .right {
+    padding-top: 25px;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-one .right p {
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: right;
+    padding-right: 70px;
+}
+
+.icon-one {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 12;
+}
+
+.icon-bottom {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 13;
+}
+
+.section-two {
+    background: #222831;
+    padding-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.section-two .left {
+    padding: 45px 0px 25px 70px;
+}
+
+.section-two .left p {
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: left;
+    padding: 25px 25px 25px 0;
+}
+
+.right {
+    padding-left: 80px;
+}
+
+.right .right-text {
+    width: 350px;
+    text-align: right;
+
+}
+
+.right .right-text h2 {
+    font-size: 125px;
+    letter-spacing: 5px;
+    line-height: 113px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 65px;
+    font-family: "Grand Hotel";
+}
+
+.right .right-text button {
+    font-size: 22px;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    background: #29a19c;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.icon-two {
+    width: 100%;
+    position: absolute;
+    top: 32%;
+    left: 0%;
+    z-index: 14;
+}
+
+.section-three {
+    background: #222831;
+    position: relative;
+}
+
+.section-three .left .left-text button {
+    background: #29a19c;
+}
+
+.icon-three {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    z-index: 15;
+}
+
+.voucher {
+    background: #222831;
+    position: relative;
+    text-align: center;
+
+}
+
+.voucher h2 {
+    font-size: 110px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.voucher .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.voucher button {
+    font-size: 22px;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    background: #29a19c;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.icon-four {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    z-index: 16;
+}
+
+
+.review {
+    background: #222831;
+    position: relative;
+}
+
+.review h2 {
+    font-size: 88px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+    text-transform: capitalize;
+    padding: 55px 0;
+}
+
+.customers {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cust-one h3 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: "Grand Hotel";
+}
+
+.cust-one p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 5px 120px;
+    font-family: "Montserrat";
+}
+
+.cust-two h3 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.cust-two p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400px;
+    padding: 5px 120px;
+    font-family: "Montserrat";
+}
+
+.icon-five {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: 17;
+}
+
+.icon-brdr {
+    height: 150px;
+}
+
+
+.timing {
+    background: #29a19c;
+    text-align: center;
+    position: relative;
+}
+
+.timing h2 {
+    font-size: 98px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 35px 0;
+    font-family: "Grand Hotel";
+}
+
+.day-one {
+    padding: 25px 0;
+}
+
+.day-off {
+    padding: 25px 0 50px 0;
+}
+
+.day-one h4 {
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.day-one p {
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.day-off h4 {
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.day-off p {
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.icon-six {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 17;
+    width: 100%;
+}
+
+.branches {
+    background: #222831;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.branches h2 {
+    padding-top: 25px;
+    text-transform: capitalize;
+    font-size: 88px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.icon-seven {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    z-index: 18;
+}
+
+.branches-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.branch-one {
+    width: 340px;
+    text-align: center;
+}
+
+.branch-one button {
+    text-transform: capitalize;
+    background: #29a19c;
+    font-size: 30px;
+    width: 60%;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.branch-one p {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-bottom: 45px;
+}
+
+footer {
+    background: #29a19c;
+}
+
+.footer-one {
+    position: relative;
+}
+
+
+.icon-ft-top {
+    position: absolute;
+    top: -20%;
+    left: 0;
+}
+
+.footer-one {
+    padding: 150px 45px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    padding: 55px;
+    margin-bottom: 25px;
+}
+
+.footer-list-contact,
+.footer-info li {
+    text-transform: capitalize;
+    padding: 0 45px;
+    list-style: none;
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.footer-list-info li a {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+.footer-list-contact li a {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+
+.sub-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-footer-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px 35px;
+    text-transform: capitalize;
+}
+
+.sub-footer-list li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.sub-footer-social img {
+    padding: 10px 25px;
+}
